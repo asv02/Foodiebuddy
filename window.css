@@ -1,0 +1,205 @@
+*{
+ margin: 0%;
+ padding: 0%;   
+}
+
+body {
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Dongle';
+
+        }
+
+        #navigation {
+        position: relative;
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo img {
+            margin: 2px;
+            height: 70px;
+            width: 70px;
+            border-radius: 50px;
+        }
+
+        /* List designing */
+        .item {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .item li {
+            line-height: 3;
+            margin-right: 20px;
+            list-style: none;
+        }
+
+        .item li {
+            list-style: none;
+        }
+
+        .item li a {
+            font-size: 1.8rem;
+            color: black;
+            text-decoration: none;
+        }
+
+        #navigation::before {
+            position: absolute;
+            content: "";
+            height: 80px;
+            width: 100%;
+            background-color: black;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        #main {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.5rem;
+            top: 0%;
+            height: 253px;
+            width: 100%;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #main>h4 {
+            margin: 0px;
+            font-size: 2.6rem;
+        }
+
+        #main>p {
+            margin: 0px;
+            font-size: 1.8rem;
+            width: 50%;
+            color: cornsilk;
+        }
+
+        #main #btn {
+            width: 160px;
+            font-size: 1.1rem;
+            background-color: rgba(13, 173, 80, 0.733);
+            padding: 3px;
+            border-radius: 4px;
+            border: 2px solid rgba(0, 128, 0, 0.856);
+            cursor: pointer;
+        }
+
+        #main::before {
+            position: absolute;
+            content: "";
+            top: 0px;
+            height: 55%;
+            width: 100%;
+            background-image: url(background.jpg);
+            background-size: cover;
+            z-index: -2;
+            opacity: 0.9;
+
+        }
+
+
+        .services {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin: 0px 0px;
+
+        }
+
+        .boxes {
+            display: flex;
+        }
+
+        .box {
+            cursor: pointer;
+            display: block;
+            width: 450px;
+            padding: 7px;
+            color: cornsilk;
+            background-color: rgba(247, 82, 6, 0.5);
+            border: 2px solid rgba(241, 215, 215, 0.404);
+            border-radius: 6px;
+            margin: 3px 10px;
+        }
+
+        .services #head {
+            margin-top: 10px;
+            text-decoration: underline;
+            margin-bottom: 0px;
+            margin-bottom: 0px;
+            font-size: 2.3rem;
+            color: rgba(0, 0, 0, 0.829);
+        }
+
+        .box>p {
+            font-size: 1.7rem;
+            margin: 0px;
+        }
+
+        .box>h5 {
+            text-decoration: underline;
+            color: black;
+            font-size: 1.8rem;
+        }
+
+        .client {
+            text-align: center;
+            display: block;
+            height: 183px;
+            width: 100%;
+        }
+
+        .client img {
+            margin: 5px;
+            height: 108px;
+            width: 171px;
+        }
+
+        .contact {
+            position: relative;
+            font-size: 1.7rem;
+            display: block;
+            text-align: left;
+            width: 100%;
+        }
+
+        .feedback {
+            display: flex;
+            width: 197px;
+            flex-direction: column;
+        }
+
+        .feedback input {
+            background-color: rgba(185, 183, 183, 0.801);
+            border-radius: 23px;
+        }
+
+        .feedback textarea {
+            background-color: rgba(185, 183, 183, 0.801);
+            border-radius: 10px;
+        }
+
+        .contact::before {
+            position: absolute;
+            content: "";
+            top: 0px;
+            left: 0px;
+            height: 480px;
+            width: 100%;
+            background-image: url(contact.jpg);
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.7;
+        }
+
+        #foot {
+            background-color: khaki;
+        }
